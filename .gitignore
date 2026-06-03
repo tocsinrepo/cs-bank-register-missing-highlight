@@ -1,0 +1,50 @@
+# -- Data & Financial Files (NEVER commit) --
+# GL exports, reconciliation workbooks, any Excel/CSV data
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+*.csv
+*.tsv
+
+# QuickBooks files
+*.qbw
+*.qbb
+*.qbm
+*.iif
+
+# PDF reports and scans
+*.pdf
+
+# Temp Excel lock files
+~$*
+
+# -- Uploaded / Working Files --
+uploads/
+data/
+output/
+tmp/
+temp/
+
+# -- Python --
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# -- Secrets & Config --
+.env
+.env.*
+*.key
+*.pem
+.streamlit/secrets.toml
+
+# -- OS Files --
+.DS_Store
+Thumbs.db
+desktop.ini
